@@ -98,11 +98,3 @@ def most_common_species(url, maximum, name):
 			#returns none for some reason
 		return most_common_species(data['next'], maximum, name)
 print(most_common_species('https://swapi.dev/api/species/', 0, ''))
-
-"""
-loop back after to make another search
-3 information try to make it hard
-find the planet the most residents, more than one page!
-find the msot common species without going to species, use people and pages
-films, people, planets, species, starships,	vehicles
-"""
